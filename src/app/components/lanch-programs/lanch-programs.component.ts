@@ -14,6 +14,10 @@ export class LanchProgramsComponent implements OnInit {
   constructor(public spacexApiService: SpacexApiService, public spacexService: SpacexService) { }
 
   ngOnInit(): void {
+    // this.spacexService.getSpaceXData('','', '');
+  }
+
+  ngAfterViewInit() {
     this.spacexService.getSpaceXData('','', '');
   }
 

@@ -18,7 +18,7 @@ enableProdMode();
     FilterComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     HttpClientModule,
     NgxSkeletonLoaderModule
