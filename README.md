@@ -11,6 +11,12 @@ Even Users can filter the SpaceX based on the YEAR, LAUNCH SUCCESS & LAND SUCCES
 
 ![Alt Text](https://i.ibb.co/C8Kc5FZ/Screenshot-4.png)
 
+## Completely Responsive Design using Media Queries
+
+### Tablet View
+
+![Alt Text](https://i.ibb.co/9ZPg2XP/Screenshot-5.png)
+
 ## Perfomance testing - Light House
 
 All the Performace testing were done using the Lighthouse Tool. The Screenshot of the report is shown below
