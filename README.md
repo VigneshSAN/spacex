@@ -2,6 +2,7 @@
 
 This project is mainly to Develop a front-end application which would help users list and browse all launches by SpaceX program. The Screenshot of the project is dhown below.
 
+### Used CSS Grids for Grid Management
 
 ![Alt Text](https://i.ibb.co/z7qY7CB/Screenshot-3.png)
 
