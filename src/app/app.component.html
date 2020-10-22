@@ -10,12 +10,15 @@
     </div>
 
     <div class="main">
-
       <app-lanch-programs></app-lanch-programs>
+    </div>
 
-      <div *ngIf="spacexApiService.SpaceXData.length == 0 && spacexApiService.loadingData== false">
+    <div class="main no-data-main" *ngIf="spacexApiService.SpaceXData.length == 0 && spacexApiService.loadingData== false">
+
+      <div class="no-data-found">
         No Data Found!
       </div>
+
     </div>
 
     <div class="footer">
