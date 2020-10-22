@@ -1,6 +1,16 @@
 # Spacex - Task - Varadhi Smartek
 
-This project is mainly to Develop a front-end application which would help users list and browse all launches by SpaceX program.
+This project is mainly to Develop a front-end application which would help users list and browse all launches by SpaceX program. The Screenshot of the project is dhown below.
+
+
+![Alt Text](https://i.ibb.co/z7qY7CB/Screenshot-3.png)
+
+
+## Perfomance testing - Light House
+
+All the Performace testing were done using the Lighthouse Tool. The Screenshot of the report is shown below
+
+![Alt Text](https://i.ibb.co/LxMGcF9/Screenshot-2.png)
 
 ## Development server
 
