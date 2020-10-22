@@ -5,6 +5,11 @@ This project is mainly to Develop a front-end application which would help users
 
 ![Alt Text](https://i.ibb.co/z7qY7CB/Screenshot-3.png)
 
+## Filters
+
+Even Users can filter the SpaceX based on the YEAR, LAUNCH SUCCESS & LAND SUCCESS.
+
+![Alt Text](https://i.ibb.co/6FYmvfm/screencapture-app-space-x-herokuapp-2020-10-22-16-51-30.png)
 
 ## Perfomance testing - Light House
 
