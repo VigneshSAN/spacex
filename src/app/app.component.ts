@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SpacexApiService } from './services/spacex-api.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'spacex';
+
+  constructor(public spacexApiService: SpacexApiService) {
+
+  }
 }

@@ -1,0 +1,62 @@
+<div class="card">
+
+    <h4>Filters</h4>
+
+    <div>
+
+        <div class="filter-heading">
+            <p>Launch Year</p>
+            <hr>
+        </div>
+
+        <div class="button-container">
+            <div *ngFor="let year of spacexApiService.LaunchYear">
+                <button class="button-active" *ngIf="year.year == launch_year"
+                    (click)="onClickLaunchYearFilter(year.year)">{{year.year}}</button>
+                <button class="button" *ngIf="year.year != launch_year"
+                    (click)="onClickLaunchYearFilter(year.year)">{{year.year}}</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="filter-heading">
+            <p>Successfull Launch</p>
+            <hr>
+        </div>
+
+        <div class="button-container">
+            <div *ngFor="let launch of spacexApiService.LaunchSuccess">
+                <button class="button-active" *ngIf="launch_success == launch.success"
+                    (click)="onClickLaunchSuccess(launch.success)">{{launch.success | titlecase}}</button>
+                <button class="button" *ngIf="launch_success != launch.success"
+                    (click)="onClickLaunchSuccess(launch.success)">{{launch.success | titlecase}}</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+
+        <div class="filter-heading">
+            <p>Successfull Landing</p>
+            <hr>
+        </div>
+
+        <div class="button-container">
+
+            <div *ngFor="let land of spacexApiService.LandSuccess">
+                <button class="button-active" *ngIf="land_success == land.success"
+                    (click)="onClickLandSuccess(land.success)">{{land.success | titlecase}}</button>
+                <button class="button" *ngIf="land_success != land.success"
+                    (click)="onClickLandSuccess(land.success)">{{land.success | titlecase}}</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
